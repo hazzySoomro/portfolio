@@ -11,9 +11,7 @@ const About = () => {
             About
           </p>
           <h2 className="py-4">Who I Am</h2>
-          <p className="py-2 text-md tracking-widest text-gray-600">
-            //* I'm not your average developer *//
-          </p>
+          <p className="py-2 text-md tracking-widest text-gray-600"></p>
           <p className="py-2 max-w-xl text-md tracking-widest text-gray-600">
             I have always had a knack for technology and working with computers.
             In 2019 I started working with HTML and CSS to make some minor edits
