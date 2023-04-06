@@ -1,23 +1,23 @@
-import Image from "next/image";
-import Link from "next/link";
-import React, { useState } from "react";
-import { FaGithub, FaLinkedinIn } from "react-icons/fa";
-import { HiOutlineChevronDoubleUp } from "react-icons/hi";
-import ContactImg from "../public/assets/contact.jpg";
+import Image from 'next/image';
+import Link from 'next/link';
+import React, { useState } from 'react';
+import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
+import { HiOutlineChevronDoubleUp } from 'react-icons/hi';
+import ContactImg from '../public/assets/contact.jpg';
 
 const Contact = () => {
-  const [name, setName] = useState("");
-  const [phone, setPhone] = useState("");
-  const [email, setEmail] = useState("");
-  const [subject, setSubject] = useState("");
-  const [message, setMessage] = useState("");
+  const [name, setName] = useState('');
+  const [phone, setPhone] = useState('');
+  const [email, setEmail] = useState('');
+  const [subject, setSubject] = useState('');
+  const [message, setMessage] = useState('');
 
   const handleSubmit = () => {
-    setName("");
-    setPhone("");
-    setEmail("");
-    setSubject("");
-    setMessage("");
+    setName('');
+    setPhone('');
+    setEmail('');
+    setSubject('');
+    setMessage('');
   };
 
   return (
@@ -39,7 +39,7 @@ const Contact = () => {
                 />
               </div>
               <div>
-                <h2 className="py-2">Hassaan Ali</h2>
+                <h2 className="py-2">Hassaan ALi</h2>
                 <p>Front-End Developer</p>
                 <p className="py-4">
                   I am available for freelance or full-time positions. Contact
